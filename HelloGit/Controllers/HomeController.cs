@@ -17,5 +17,10 @@ namespace HelloGit.Controllers
         {
             Response.Write("<h1>About Page</h1>");
         }
+
+        public void FooPage()
+        {
+            Response.Write("<h1>Foo page!</h1>");
+        }
     }
 }
