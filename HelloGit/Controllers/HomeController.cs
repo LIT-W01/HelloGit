@@ -13,5 +13,9 @@ namespace HelloGit.Controllers
             Response.Write("<h1>Hello from git!!</h1>");
         }
 
+        public void About()
+        {
+            Response.Write("<h1>About Page</h1>");
+        }
     }
 }
