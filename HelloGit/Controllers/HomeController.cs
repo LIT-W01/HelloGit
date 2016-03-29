@@ -37,5 +37,10 @@ namespace HelloGit.Controllers
         {
             Response.Write("Goodbye!");
         }
+
+        public void Shana2()
+        {
+            Response.Write("Hello Again");
+        }
     }
 }
