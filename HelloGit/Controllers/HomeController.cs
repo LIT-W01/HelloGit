@@ -27,5 +27,10 @@ namespace HelloGit.Controllers
         {
             Response.Write("<h1>Foo page!</h1>");
         }
+
+        public void Avrumi()
+        {
+            Response.Write("Goodbye!");
+        }
     }
 }
